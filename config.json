@@ -1,0 +1,27 @@
+{
+  "output": "./build/public",
+  "locals": {
+    "url": "http://joat.es",
+    "name": "home",
+    "owner": "",
+    "description": "analects from an open sourcerer's notepad.."
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 5
+  }
+}
